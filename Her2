@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head><meta charset="utf-8">
+  		  <meta name="description" content="Aanmelden">
+  		  <meta name="keywords" content="front-end">
+  		  <meta name="author" content="Paul">
+        <link href="css/style2.css" type="text/css" rel="stylesheet" />
+        <title>Aanmelden</title>
+  </head>
+
+  <body>
+	<header>
+      <nav>
+        <ul>
+          <li><a href="week2.html" >opleiding</a></li>
+          <li><a href="aanmelden.html" >aanmelden</a></li>
+          <li><a href="contentmatrix.html" >contentmatrix</a></li>
+        </ul>
+      </nav>
+  </header>
+
+    <main>
+      <article>
+
+	        <h1>Aanmelden</h1>
+	
+          <p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+          Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+          lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+	        <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+          Amsterdam.</p>
+
+          <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+          Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+		      Voor vragen of opmerkingen kunt u  <a href="http://www.hva.nl/opleiding/voltijd/communication-and-multimedia-design/beroepen/">contact</a> met ons op.
+	        </p>
+
+	        <p>CMD Amsterdam is een ontwerpopleiding die studenten opleidt om te denken als een
+		      ontwerper bij het ontwikkelen van interactieve toepassingen;</p>
+
+      	  <form>
+              <fieldset>
+                <legend>Contactgegevens:</legend>
+          	    Name: <input type="text">
+                Bedrijf: <input type="text">
+                Adres: <input type="text">
+                Postcode: <input type="text">
+                Plaats: <input type="text">
+                Telefoon: <input type="text">
+                Email: <input type="text">
+              </fieldset>
+          </form>
+
+      
+          <fieldset>
+            <legend>Ik wil mijn aanmelden</legend>
+      	     Voor een project<input type="radio" name="aanmelden"> 
+             Als stagebedrijf <input type="radio" name="aanmelden">
+          </fieldset>  
+
+          <form>
+              <fieldset>
+                <legend>Project</legend>
+                <fieldset>
+                    <legend>Project gegevens</legend>
+                    <ol>
+                        <li>
+                           <label for="titel">Titel:</label>
+                           <input type="text" id="titel" placeholder="CMD Aan" required />
+                        </li>
+                        <li>
+                           <label>Opdrachtomschrijving:</label>
+                           <textarea placeholder="Opdrachtomschrijving." required></textarea>
+                        </li>
+                        <li>
+                           <label>Doelgroepomschrijving</label>
+                           <textarea placeholder="Beschrijf uw doelgroepsomschrijving." required></textarea>
+                        </li>
+                        <li>
+                           <label>Doelstelling/ intentie van het project:</label>
+                           <textarea placeholder="Beschrijf uw doelstelling." required></textarea>
+                        </li>
+                        <li>
+                           <label for="month">Looptijd:</label>
+                           <input type="month" id="month" required />
+                        </li>
+                        <li>
+                           <label for="date">Deadline:</label>
+                           <input type="date" id="date" required />
+                        </li>
+                    </ol>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Geschikt voor</legend>
+                    <ol>
+                      <li>
+                          <input type="radio" id="eerstejaars" name="studenten" value="project" required />
+                          <label for="eerstejaars">Eerstejaars studenten</label>
+                      </li>
+                      <li>
+                          <input type="radio" id="tweedejaars" name="studenten" value="project" required />
+                          <label for="tweedejaars">Tweedejaars studenten</label>
+                      </li>
+                      <li>
+                          <input type="radio" id="derdejaars" name="studenten" value="project" required />
+                          <label for="derdejaars">Derdejaars studenten</label>
+                      </li>
+                      <li>
+                          <input type="radio" id="afstudeer" name="studenten" value="project" required />
+                          <label for="afstudeer">Afstudeer studenten</label>
+                      </li>
+                      <li>
+                          <input type="radio" id="onbekend" name="studenten" value="project" required />
+                          <label for="onbekend">Onbekend</label>
+                      </li>
+                    </ol>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Laat een opmerking achter</legend>
+                    <label>Opmerking:</label>
+                    <textarea placeholder="Laat hiet uw opmerking achter."></textarea>
+                </fieldset>
+              </fieldset>
+              <input type="submit" />
+          </form>
+
+          <form>
+              <fieldset>
+                <legend>Stage</legend>
+                <fieldset>
+                  <legend>Geschikt voor</legend>
+                  <ol>
+                      <li>
+                          <input type="radio" id="s-tweedejaars" name="studenten" value="stage" required />
+                          <label for="tweedejaars">Tweedejaars studenten</label>
+                      </li>
+                      <li>
+                          <input type="radio" id="s-afstudeer" name="studenten" value="stage" required />
+                          <label for="afstudeer">Afstudeer studenten</label>
+                      </li>
+                      <li>
+                          <input type="radio" id="s-onbekend" name="studenten" value="stage" required />
+                          <label for="onbekend">Onbekend</label>
+                      </li>
+                  </ol>
+                </fieldset>
+
+                <fieldset>
+                  <legend>Tijdsduur stage</legend>
+                  <ol>
+                      <li>
+                         <label>Hoe lang is de stage?</label>
+                         <ul>
+                           <li>
+                                <input type="radio" id="10-weken" name="aanmelden" value="stage" required />
+                                <label>10 weken</label>
+                           </li>
+                           <li>
+                                <input type="radio" id="20-weken" name="aanmelden" value="stage" required />
+                                <label>20 weken</label>
+                           </li>
+                         </ul>
+                      </li>
+                      <li>
+                          <label for="date">Begin datum</label>
+                          <input type="date" id="s-date" required />
+                      </li>
+                  </ol>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Beschrijving werkzaamheden</legend>
+                    <ol>
+                       <li>
+                          <label>Beschrijving stagewerkzaamheden:</label>
+                          <textarea placeholder="Beschrijg uw stagewerkzaamheden" required></textarea>
+                       </li>
+                    </ol>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Beschrijving stagebedrijf</legend>
+                    <ol>
+                      <li>
+                          <label for="bedrijfsnaam">Bedrijfsnaam:</label>
+                          <input type="text" id="bedrijfsnaam" placeholder="Coca Cola" required />
+                      </li>
+                      <li>
+                          <label for="adres">Adres:</label>
+                          <input type="text" id="s-adres" placeholder="Wibautstraat" required />
+                      </li>
+                      <li>
+                          <label for="postcode">Postcode:</label>
+                          <input type="text" id="s-postcode" placeholder="1357BR" required />
+                      </li>
+                      <li>
+                          <label for="plaats">Plaats:</label>
+                          <input type="text" id="s-plaats" placeholder="Amsterdam" required />
+                      </li>
+                      <li>
+                          <label for="sector">Sector:</label>
+                          <input type="text" id="sector" placeholder="Design" required />
+                      </li>
+                      <li>
+                          <label>Core Business:</label>
+                          <textarea placeholder="Wat is de Core Business van uw bedrijf?" required></textarea>
+                      </li>
+                    </ol>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Laat een opmerking achter</legend>
+                    <label>Opmerking:</label>
+                    <textarea placeholder="Laat hier uw opmerking achter."></textarea>
+                </fieldset>
+              </fieldset>
+              <input type="submit" />
+          </form>
+      </article>
+    </main>
+  </body>
+</html>
