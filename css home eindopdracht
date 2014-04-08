@@ -1,0 +1,273 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body{
+	margin: 1em auto;
+	width: 90%;
+	background: #fff;
+}
+
+h1 { 
+	font: italic normal 140% georgia, sans-serif;
+	color: #1874CD;
+	text-shadow: 0 0 .1em grey;
+	}
+
+h2{
+	font-size: 1.1em;
+}
+
+h2:last-of-type{
+ 	color: grey;
+}
+
+h3{
+	font-size: 0.9em;
+}
+
+img + p + p{
+	text-decoration:underline;
+}
+
+p{
+	font: verdana;
+	color: black;
+}
+
+p > a{
+	color: green;
+}
+
+header ul li:nth-child(odd) {
+	background-color: #CCFFCC;
+	color: black; 
+}
+
+header ul li:nth-child(even) {
+	background-color: #CCFFCC;
+	color: black; 
+}
+
+header ul li a{
+	font-size: 90%;
+}
+
+header ul li ul a{
+	font-size: 100%;
+}
+
+header ul li {
+	 width: 7.9em;
+	 display: inline-block;
+  	 margin-right: -0.313em;
+  	 position: relative;
+	 padding: 1.238em 1.550em;
+	 -webkit-transition: all 0.2s;
+	 -moz-transition: all 0.2s;
+	 -ms-transition: all 0.2s;
+	 -o-transition: all 0.2s;
+	 transition: all 0.2s;
+}
+
+header ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 3.000em;
+  left: 0;
+  width: 8em;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+header ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+header ul li:hover { background: #C4C8CC; }
+header ul li ul li:hover { background: #C4C8CC; }
+
+article{
+	position: absolute;
+	top:15%;
+	left: 8.3%;
+	width: 56%;
+	background: #CCFFCC;
+	padding: 1%;
+}
+
+video{
+	width: 90%;
+}
+
+img{
+	width: 60%;
+}
+ 
+aside{
+	position: absolute;
+	top: 15%;
+	right: -3%;
+	width: 23%;
+	background: #CCCCCC;
+	margin-right: 10%;
+	padding: 1%;
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	top: 330%;
+	left: -10%;
+	background: lightgrey;
+	margin:10%;
+	padding: 2%;
+}
+
+footer > ul {
+    width: 20%; 
+    float: left; 
+}    
+
+
+@media only screen and (max-width:68.75em) {
+
+
+p{
+	font-size: 80%;
+}
+
+header ul li {
+	 width: 3em;
+}	 
+
+header ul li ul a{
+	font-size: 65%;
+}
+
+
+
+article{
+	width: 63%;
+	left: 9%;
+}
+
+aside{
+	width:22%;
+	right: -9%;
+}
+
+footer{
+	top: 143em;
+	font-size: 0.9em;
+}
+
+
+}
+
+@media only screen and (max-width:37.50em) {
+
+header ul li:nth-child(odd) {
+	background-color: #CCCCCC;
+	color: black; 
+	display: block;
+}
+
+
+ header ul li:nth-child(even) {
+	background-color: #CCCCCC;
+	color: black; 
+}
+
+header ul li ul {
+	left: 100%;	
+
+}	
+
+header ul li {
+	 width: 8em;
+	 list-style-type: none;
+  	 margin-right: 8em;
+  	 position: relative;
+	 padding: 0.5em 0.5em;
+	 background: #fff;
+	 cursor: pointer;
+	 -webkit-transition: all 0.2s;
+	 -moz-transition: all 0.2s;
+	 -ms-transition: all 0.2s;
+	 -o-transition: all 0.2s;
+	 transition: all 0.2s;
+}
+
+ 
+h1{
+		color: blue;
+		font-size: 1em;
+}
+
+h2{
+	font-size: 0.8em;
+}
+
+h3{
+	font-size: 0.7em;
+}
+
+
+article{
+	left: 1em;
+	top: 15em;
+	width: 90%;
+}
+
+aside{
+	position: relative;
+	top:120em;
+	width: 100%;
+	left: -0.1em;
+}
+
+footer{
+	width: 97%;
+	top: 210em;
+}
+
+footer > ul {
+    width: 20%; 
+    float: none; 
+} 
+
+
+p + ul{
+	font-size: 0.7em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
